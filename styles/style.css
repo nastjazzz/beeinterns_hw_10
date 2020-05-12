@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    /* max-width: 1180px; */
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    margin: auto;
+}
+
+.content {
+    width: 70%;
+}
+
+.menu {
+    width: 100%;
+    float: right;
+    font-size: 15px;
+}
+
+.logo {
+    vertical-align: middle;
+    margin: 1% 2%;
+}
+
+a {
+    margin: 1%;
+    text-align: right;
+}
+
+.navbar_menu {
+    text-decoration: none;
+    color: black
+}
+
+.callback {
+    background: rgb(30, 160, 30);
+    position: relative;
+    width: 30%;
+    float: right;
+    color: white;
+}
+
+.tel {
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.callback > span {
+    font-size: 18px;
+}
+
+.call {
+    background: rgb(255, 208, 0); 
+    position: absolute; 
+    bottom: 0;
+    padding: 7px 60px;
+    font-size: 13px;
+}
+
+.first_block {
+    background-image: url(../images/why.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: 50%;
+    text-align: center;    
+}
+
+.header {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 45px;
+}
+
+.reason {
+    display: inline-block;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.greenblock {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 20%;
+    font-size: 21px;
+}
+
+.whiteblock {
+    display: inline-block;
+    position: absolute;
+    color: green;
+    top: 42%;
+    left: 55%;
+    font-size: 19px;
+    text-align: left;    
+}
+
+.second_block {
+    background-image: url(../images/us.jpg);
+    background-position: 50%;
+    background-size: cover;
+    height: 1030px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+.leftimg {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.rightimg {
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.wecan {
+    margin: auto;
+    width: 850px;
+    height: 150px;
+    position: relative;
+    margin-bottom: 35px;    
+}
+
+.text {
+    color: white;
+    text-align: left;
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    padding-left: 60px;
+    border-left: 1px groove white;
+}
+
+.wecan__img {
+    float: left;
+    opacity: 0.7;
+}
+
+.text {
+    position: relative;
+}
+
+.text p {
+    position: absolute;
+    top: 40%;
+}
+
+.third_block {
+    width: 100%;
+    text-align: center;
+    height: 500px;
+}
+
+.cars {
+    margin: auto;
+}
+.car {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.car > div {
+    position: relative;
+    background: rgb(238, 238, 238);
+    height: 200px;
+    width: 70px;
+    margin: auto;
+}
+
+.imgcars {
+    position: absolute;
+    top: 25px;
+    left: -50px;
+}
+
+.car_block {
+    text-align: center;
+    position: absolute;
+    top: 95px;
+    left: -50px;
+    font-size: 18px;
+    width: 170px;
+    color: grey;
+} 
+
+
+footer {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.footer_content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.footer_left {
+    width: 25%;
+}
+
+.footer_middle {
+    width: 50%;
+    text-align: center;
+}
+
+.footer_middle p {
+    font-size: 13px;
+    color: rgb(30, 160, 30);
+}
+
+.footer_right {
+    text-align: right;
+    width: 25%;
+}
+
+.footer_right p {
+    font-size: 15px;
+}
